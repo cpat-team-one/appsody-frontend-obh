@@ -58,7 +58,7 @@ metadata:
 spec:
   env:
     - name: APPSODY_BACKEND_DEFAULT_URL
-      value: http://appsody-backend-{initials}:3000/
+      value: http://appsody-backend-obh:3000/
   applicationImage: dev.local/appsody-frontend-obh
   createKnativeService: false
   expose: true
